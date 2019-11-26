@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class TCPServer{
-    public static void main(String[] args){
+    public static void executeServer(){
         
         try {
             System.out.print("[ Iniciando Servidor TCP    .........................  ");

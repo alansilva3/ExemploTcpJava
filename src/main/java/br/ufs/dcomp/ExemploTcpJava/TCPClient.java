@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class TCPClient{
-    public static void main(String[] args){
+    public static void executeClient(){
         try {
             System.out.print("[ Conectando com o Servidor TCP    ..................  ");
             Socket sock = new Socket("127.0.0.1", 3300);
